@@ -1,34 +1,37 @@
 {
-  "name": "@coinbotapp/client",
-  "version": "0.0.1",
-  "description": "Client for the coinbotapp service",
-  "main": "index.js",
-  "scripts": {
-    "test": "jest"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/coinbotapp/client.git"
-  },
-  "keywords": [
-    "coinbot",
-    "bitcoin",
-    "criptocurrency",
-    "trading"
-  ],
-  "author": "The coinbotapp team",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/coinbotapp/client/issues"
-  },
-  "homepage": "https://github.com/coinbotapp/client#readme",
-  "devDependencies": {
-    "eslint": "^3.19.0",
-    "eslint-config-airbnb-base": "^11.2.0",
-    "eslint-plugin-import": "^2.3.0",
-    "jest": "^20.0.4"
-  },
-  "dependencies": {
-    "commander": "^2.9.0"
-  }
+    "name": "@coinbotapp/client",
+    "version": "0.0.3",
+    "description": "Client for the coinbotapp service",
+    "main": "index.js",
+    "scripts": {
+        "test": "jest"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/coinbotapp/client.git"
+    },
+    "keywords": [
+        "coinbot",
+        "bitcoin",
+        "criptocurrency",
+        "trading"
+    ],
+    "author": "The coinbotapp team",
+    "license": "Apache",
+    "bugs": {
+        "url": "https://github.com/coinbotapp/client/issues"
+    },
+    "homepage": "https://github.com/coinbotapp/client#readme",
+    "devDependencies": {
+        "eslint": "^3.19.0",
+        "eslint-config-airbnb-base": "^11.2.0",
+        "eslint-plugin-import": "^2.3.0",
+        "jest": "^20.0.4"
+    },
+    "dependencies": {
+        "commander": "^2.9.0"
+    },
+    "bin": {
+        "coinbot-cli": "./index.js"
+    }
 }
